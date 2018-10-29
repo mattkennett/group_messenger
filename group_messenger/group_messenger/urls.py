@@ -10,8 +10,8 @@ from rest_framework.authtoken import views as authtoken_views
 from messenger import views
 
 router = routers.DefaultRouter()
-router.register(r'^api/channels', views.ChannelViewSet)
-router.register(r'^api/messages', views.MessageViewSet)
+router.register(r'^api/v1/channels', views.ChannelViewSet)
+router.register(r'^api/v1/messages', views.MessageViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
