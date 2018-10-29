@@ -18,7 +18,9 @@ SECRET_KEY = '3tf5itaslusu0is2z6$#$%cny+ha)1donm*6v%ld(+-86(*39('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'messenger.mattkennett.com',
+]
 
 if DEVELOPMENT_ENV:
     DEBUG = True

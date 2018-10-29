@@ -5,3 +5,4 @@
 .idea/workspace.xml
 group_messenger/db.sqlite3
 group_messenger/group_messenger/settings_dev.py
+.idea/vcs.xml
